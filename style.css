@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.rating-card{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.star{
+    background-color:  hsl(216, 12%, 30%);
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.rating-card h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.rating-card p{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15px;
+       
+}
+
+.btn{
+    border: none;
+    outline: none;
+    color: hsl(0, 0%, 100%);
+
+
+    background-color: hsl(213, 19%, 38%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn:hover{
+    background-color:hsl(25, 97%, 53%) ;
+}
+
+.btn:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+
+.submit{
+    margin-bottom: 20px;
+    background-color:  hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color:hsl(0, 0%, 100%) ;
+    color: hsl(25, 97%, 53%);
+}
+
+.thanks-card{
+    
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+    
+    
+}
+
+.selection{
+    background-color: hsl(213, 19%, 25%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thanks-card h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+
+}
+
+.note{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    /* display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */ 
+   
+    
+}
