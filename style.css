@@ -137,3 +137,41 @@ body{
    
     
 }
+
+
+@media (max-width: 375px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    body{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+    .rating-card{
+        
+        width: 300px;
+    }
+
+    .thanks-card{
+        width: 300px;
+    }
+
+    .submit{
+        width: 280px;
+        
+    }
+
+    .submission{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+}
