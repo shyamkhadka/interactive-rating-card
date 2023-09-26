@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     numBtn.forEach(function (button) {
         button.addEventListener("click", function () {
             const selected = button.innerHTML;
+          if(selected===2){
+              rating++;
+          }
+            
 
             selection.innerText = "You selected " + selected + " out of 5";
         });
